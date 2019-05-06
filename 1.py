@@ -1,12 +1,12 @@
-def pobierz_dane (liczba_cyfr):
-    lista=[]
-    for i in range (liczba_cyfr):
-        dodaj = input()
-        lista.append(dodaj)
-    return lista
-print("Podaj ile liczb ma się znaleźć w liśćie")
+def get_data (numberofnumbers):
+    list=[]
+    for i in range (numberofnumbers):
+        add = input()
+        list.append(add)
+    return list
+print("How many elements may your list have?")
 
-ile=int(input())
+amount=int(input())
 
 
-print(pobierz_dane(ile))
+print(get_data(amount))
