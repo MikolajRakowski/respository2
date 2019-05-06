@@ -10,3 +10,4 @@ amount=int(input())
 
 
 print(get_data(amount)) #requesting created function
+print("change")
